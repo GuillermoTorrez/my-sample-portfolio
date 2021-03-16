@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head/>
+        <Head>
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"/>
+         </Head> 
         <body>
           <Main />
           <NextScript />
@@ -19,4 +21,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default MyDocument;

@@ -1,16 +1,25 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body,
+html, body > div:first-child,
+div#__next,
+div#__next > div 
+{
+  height: 100% ;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.overflow {
+    height: 50%;
+    overflow: hidden;
 }
 
-* {
-  box-sizing: border-box;
+.overflow .card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+  transform: scale(1.8);
+}
+
+# Progress .bar {
+   background: #ff5357 !important;
 }

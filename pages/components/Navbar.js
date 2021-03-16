@@ -3,9 +3,11 @@ import Link from "next/link";
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container">
-       <Link href="/">  
+       <Link href="/"> 
          <a className="navbar-brand" >
-            Simple PortFolio
+         <img src="./React-Next2.jfif" style={{width:'30%', height:'15%'}}/>
+         <br/>
+             Simple PortFolio 
          </a>
       </Link>
       <button
