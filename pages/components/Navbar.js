@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
     <div className="container">
@@ -33,7 +32,7 @@ const Navbar = () => (
           <li className="nav-item">
             <Link href="/blog">
               <a className="nav-link">
-              <i class="fab fa-blogger fa-3x"></i></a>
+              <i className="fab fa-blogger fa-3x"></i></a>
             </Link>
           </li>
         </ul>

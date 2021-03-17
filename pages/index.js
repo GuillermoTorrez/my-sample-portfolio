@@ -10,17 +10,25 @@ const Index = () => (
         <div className="card card-body bg-secondary text-light">
           <div className="row">
             <div className="col-md-4">
-              <img src="/personalfoto.jpeg" className="figure-img img-fluid rounded" alt="" />
+              <img
+                src="/personalfoto.jpeg"
+                className="figure-img img-fluid rounded"
+                alt=""
+              />
             </div>
             <div className="col-md-8 py-4">
               <h3>Hello, my name is</h3>
               <h1>Guillermo Torrez</h1>
               <br />
               <p>
-              I'm a full-stack developer specialised in frontend and backend development for complex scalable web apps. I write about web development on my blog and regularly speak at various web conferences and meetups. Want to know how I may help your project? Check out my project case studies and resume. .
+                I'm a full-stack developer specialised in frontend and backend
+                development for complex scalable web apps. I write about web
+                development on my blog and regularly speak at various web
+                conferences and meetups. Want to know how I may help your
+                project? Check out my project case studies and resume. .
               </p>
               <Link href="/hireme">
-                <a className="btn btn-light"> Hire me</a>
+                <a className="btn btn-primary"> Hire me</a>
               </Link>
             </div>
           </div>
@@ -87,7 +95,12 @@ const Index = () => (
               <div className="col-md-4 p-3" key={id}>
                 <div className="card h-100">
                   <div className="overflow">
-                    <img className="card-img-top" src={`/${imagen}`} alt="" style={{width:'100%', height:'100%'}}/>
+                    <img
+                      className="card-img-top"
+                      src={`/${imagen}`}
+                      alt=""
+                      style={{ width: "100%", height: "100%" }}
+                    />
                   </div>
 
                   <div className="card-body">

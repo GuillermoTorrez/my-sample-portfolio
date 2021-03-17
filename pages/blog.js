@@ -2,8 +2,6 @@ import Layout from "./components/Layout";
 import {posts} from "../profile";
 import Link from 'next/link'
 
-console.log(posts);
-
 const PostCard = ({post}) => (
   <div className="col-md-4 p-3">
     <div className="card h-100">

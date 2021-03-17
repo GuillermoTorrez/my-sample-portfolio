@@ -1,20 +1,20 @@
 import Layout from './components/Layout'
 import Error from './_error'
 
-const Github = (props) => {
+const Github = ({user, statusCode}) => {
        
-   if (props.statusCode) {
-       return <Error statusCode = {props.statusCode} />
+   if (statusCode) {
+       return <Error statusCode={statusCode} />
    }
      return (
      <Layout footer={false} dark>
-        <div class="row">
+        <div className="row">
              <div className="col-md-4 offset-md-4">
              <div className="card card-body text-center">
-             <h1>{props.user.name}</h1>
-             <img src={props.user.avatar_url} alt=""/>
-             <p>{props.user.bio}</p>
-             <a target="_blank" className="btn btn-outline-secondary" href={props.user.html_url}>Go to my Github</a>  
+             <h1>{user.name}</h1>
+             <img src={user.avatar_url} alt=""/>
+             <p>{user.bio}</p>
+             <a target="_blank" className="btn btn-outline-secondary my-2" href={user.html_url}>Go to my Github</a>  
              </div>            
              </div>   
         </div>
@@ -29,8 +29,6 @@ export async function getServerSideProps() {
    const data = await res.json();
 
    const statusCode = res.status > 200 ? res.status : false;
-
-   console.log(res.status);
     
    return {
      props: {
