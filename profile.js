@@ -89,17 +89,17 @@ export const projects = [
 export const posts = [
 {
   title: "React",
-  content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+  content: "This year’s React Conf took place on October 25 and 26 in Henderson, Nevada, where more than 600 attendees gathered to discuss the latest in UI engineering.",
   imageURL: "https://miro.medium.com/max/3840/1*yjH3SiDaVWtpBX0g_2q68g.png"
 },
 {
     title: "Angular",
-    content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
-    imageURL: "https://miro.medium.com/max/3492/1*Mtw0eaSwwbB7D9-fFPVvcg.png"
+    content: "One of the highest priorities for Angular is to enable best practices from the start. We want you to feel comfortable building a large…",
+    imageURL: "https://themes.3rdwavemedia.com/instance/bs4/assets/images/blog/blog-post-thumb-1.jpg"
   },
   {
     title: "Vue",
-    content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    content: "I am trying to submit a form using VueJS. But, when I am calling the API within the form, it is not submitting the data.",
     imageURL: "https://tibs.me/wp-content/uploads/2017/01/maxresdefault.jpg"
   }
 ]

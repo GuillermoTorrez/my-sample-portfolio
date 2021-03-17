@@ -12,7 +12,7 @@ const PostCard = ({post}) => (
         style={{width:'100%', height:'100%'}}/>
       </div>
       <div className="card-body">
-        <h1>{post.title}</h1>
+        <h4>{post.title}</h4>
         <p>{post.content}</p>
         <Link href={`/post?title=${post.title}`} as={`/post/${post.title}`}>
         <button className="btn btn-light">

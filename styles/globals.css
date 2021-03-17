@@ -20,6 +20,11 @@ div#__next > div
   transform: scale(1.8);
 }
 
-# Progress .bar {
+#Progress .bar {
    background: #ff5357 !important;
+}
+
+#myfont {
+  font-family: 'Prata', serif;
+  font-size: 24px;
 }
