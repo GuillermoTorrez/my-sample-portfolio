@@ -22,19 +22,20 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
 
   return (
     <div className={dark ? "bg-dark" : "bg-light"}>
+      <head>
       <title>My PortFolio</title>
       <link
         rel="stylesheet"
         href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
-      />
-
+      />        
+      </head>
       <Navbar />
       <main className="container py-4">
-        {title && (
+        {/* {title && (
           <h1 className={dark ? "text-center text-light" : "text-center"}>
             {title}
           </h1>
-        )}
+        )} */}
 
         {children}
       </main>

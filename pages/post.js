@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { posts } from "../profile";
 
 const Post = () => {
+
   const router = useRouter();
 
   const currentPost = posts.filter(
@@ -16,8 +17,7 @@ const Post = () => {
     <div className="text-center">
         <img src={currentPost.imageURL} alt="" className="img-fluid" style={{width:'50%', height:'50%'}}/>
         <p>{currentPost.content}</p>
-    </div>
-     
+    </div>     
     </Layout>
   );
 };

@@ -100,6 +100,6 @@ export const posts = [
   {
     title: "Vue",
     content: "I am trying to submit a form using VueJS. But, when I am calling the API within the form, it is not submitting the data.",
-    imageURL: "https://tibs.me/wp-content/uploads/2017/01/maxresdefault.jpg"
+    imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
   }
 ]
