@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import NProgress from "nprogress";
