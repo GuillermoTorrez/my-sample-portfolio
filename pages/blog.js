@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import {posts} from "./profile";
+import {posts} from "profile";
 import Link from 'next/link'
 
 const PostCard = ({post}) => (
