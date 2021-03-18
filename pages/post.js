@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import {useRouter} from "next/router";
-import {posts} from "profile";
+import {posts} from "../profile";
 
 const Post = () => {
   
