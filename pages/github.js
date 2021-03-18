@@ -1,4 +1,4 @@
-import Layout from '..Layout/components/Layout'
+import Layout from '../components/Layout'
 import Error from './_error'
 
 const Github = ({user, statusCode}) => {
