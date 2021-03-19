@@ -12,11 +12,13 @@ const PostCard = ({post}) => (
       <div className="card-body">
         <h4>{post.title}</h4>
         <p>{post.content}</p>
-        <Link href={`/post?title=${post.title}`} as={`/post/${post.title}`}>
-        <button className="btn btn-light">
-             Read
+        {/* I want to create a Dynamic page}
+        {/*<Link href={`/post?title=${post.title}`}>
+         <button className="btn btn-light">
+             {post.title}
         </button>
         </Link>
+*/}
       </div>
     </div>
   </div>

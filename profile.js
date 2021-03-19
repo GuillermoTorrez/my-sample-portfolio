@@ -96,10 +96,10 @@ export const posts = [
     title: "Angular",
     content: "One of the highest priorities for Angular is to enable best practices from the start. We want you to feel comfortable building a large…",
     imageURL: "https://themes.3rdwavemedia.com/instance/bs4/assets/images/blog/blog-post-thumb-1.jpg"
-  },
-  {
+},
+{
     title: "Vue",
     content: "I am trying to submit a form using VueJS. But, when I am calling the API within the form, it is not submitting the data.",
     imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
-  }
+},
 ]

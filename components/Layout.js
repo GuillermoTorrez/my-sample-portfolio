@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
+import {useEffect} from "react";
+import {useRouter} from "next/router";
 import NProgress from "nprogress";
 
 const Layout = ({ children, title, footer = true, dark = false }) => {
@@ -31,11 +31,11 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
       </head>
       <Navbar />
       <main className="container py-4">
-        {/* {title && (
+        {title && (
           <h1 className={dark ? "text-center text-light" : "text-center"}>
             {title}
           </h1>
-        )} */}
+        )} 
 
         {children}
       </main>
