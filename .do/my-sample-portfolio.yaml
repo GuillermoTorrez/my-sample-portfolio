@@ -1,13 +1,17 @@
+domains:
+- domain: codeportfolio.website
+  type: PRIMARY
+  zone: codeportfolio.website
 name: my-sample-portfolio
 region: nyc
 static_sites:
 - build_command: npm run build
+  catchall_document: index.html
   environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
     repo: GuillermoTorrez/my-sample-portfolio
   name: my-sample-portfolio
-  error_document: index.html
   routes:
   - path: /
